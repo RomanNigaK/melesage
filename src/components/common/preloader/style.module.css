@@ -1,0 +1,14 @@
+.pre{
+    width: 100%;
+    min-width: 200px;
+    height: 100px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 30%; left: auto; bottom: auto; right: auto;
+   
+   
+    
+    
+    text-align: center;
+  }

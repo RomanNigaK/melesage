@@ -1,0 +1,46 @@
+
+.select{
+    width: 150px;
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+   
+
+}
+.select::after{
+    content: '\02C5';
+    float:right;
+    margin-right: 5px;
+}
+
+.items{
+    position: absolute;
+    width: inherit;
+}
+
+.item{
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    background-color: rgb(189, 189, 189);
+}
+.item:first-child{
+    margin-top: 15px;
+}
+
+
+.select:hover::after{
+    content: '\02C4'
+}
+.item:hover{
+    background-color: rgb(230, 229, 229);
+    cursor: pointer;
+}
+.item:active {
+    color: red;
+}
+
+

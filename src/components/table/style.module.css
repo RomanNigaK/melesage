@@ -1,0 +1,44 @@
+
+.row{
+    display: flex;
+    justify-content: center;
+    
+    min-width: 720;
+    
+}
+.row:nth-child(even){
+    background-color: rgb(183, 183, 183);
+}
+
+.row:nth-child(2){
+    border-bottom: 2px solid black;
+}
+
+.itemRow{
+   
+    
+    padding-left: 10px;
+   
+  
+    color:black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.itemRow:first-child{
+    width: 20%;
+    min-width: 150px;
+}
+.itemRow:nth-child(2){
+    width: 60%;
+    min-width: 300px;
+}
+.itemRow:nth-child(3), .itemRow:nth-child(4){
+    width: 10%;
+    text-align: center;
+    min-width: 100px;
+}
+
+
+
+
